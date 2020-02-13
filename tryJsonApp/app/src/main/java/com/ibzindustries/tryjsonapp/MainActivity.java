@@ -27,7 +27,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initial();
+        generelizeJson();
 
+        adapterAlamat adapter = new adapterAlamat(this,person.getAlamats());
+        lvAddress.setAdapter(adapter);
 
     }
 
@@ -63,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
             person = new Person(nama,age,gender, alamats);
 
-            tvName.setText("Nama"+person.getNama());
-            tvAge.setText("Umur"+String.valueOf(person.getUmur()));
-            tvGender.setText("Gender"+person.getGender());
+            tvName.setText(person.getNama());
+            tvAge.setText(String.valueOf(person.getUmur()));
+            tvGender.setText(person.getGender());
 
         }catch (JSONException ex){
             ex.printStackTrace();
