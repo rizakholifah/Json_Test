@@ -1,0 +1,19 @@
+{
+  "person": {
+    "name": "Riza Kholifah Akwan",
+    "age": 20,
+    "gender": "male",
+    "address": [
+      {
+        "nameAddress": "home",
+        "addressDetail": "BPA Sektor 3 Blok I",
+        "city": "Tangerang"
+      },
+      {
+        "nameAddress": "office",
+        "addressDetail": "The Breeze BSD City",
+        "city": "BSD City"
+      }
+    ]
+  }
+}
