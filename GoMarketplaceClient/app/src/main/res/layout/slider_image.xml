@@ -18,14 +18,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="130dp"
-        app:layout_constraintBottom_toBottomOf="@+id/image_slide"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/bg_gradient" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
